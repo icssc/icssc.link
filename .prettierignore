@@ -1,0 +1,7 @@
+.cdk.staging
+.docusaurus
+cdk.out
+coverage
+build
+dist
+pnpm-lock.yaml
