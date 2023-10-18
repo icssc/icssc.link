@@ -7,7 +7,7 @@ const client = new DynamoDBClient({});
 const docClient = DynamoDBDocumentClient.from(client);
 
 const notFoundResponse: APIGatewayProxyStructuredResultV2 = {
-  statusCode: 301,
+  statusCode: 302,
   headers: { Location: "https://studentcouncil.ics.uci.edu/404.html" },
 };
 
